@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
-  // ProviderScope هو الغلاف الأساسي (مثل React.StrictMode أو Context.Provider في React)
   runApp(const ProviderScope(child: MyApp()));
 }
 
