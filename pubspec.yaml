@@ -1,6 +1,6 @@
-name: focus_app
-description: "A new Flutter project for focus timer."
-publish_to: 'none' 
+name: hafiz_tafkeed
+description: تطبيق حافز التركيز
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -9,8 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # هذه المكتبة الأساسية التي نستخدمها لإدارة الحالة (State Management)
-  flutter_riverpod: ^2.4.9 
+  flutter_riverpod: ^2.6.1
+  intl: ^0.18.1
+  # google_fonts: ^6.3.3  # ❌ مشكلة على الويب بدون dev mode
+  # shared_preferences: ^2.5.5  # ❌ مشكلة على الويب بدون dev mode
+  # path_provider: ^2.1.6  # ❌ مشكلة على الويب بدون dev mode
 
 dev_dependencies:
   flutter_test:
@@ -19,6 +22,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # هنا سنضيف الصور لاحقاً بهذا الشكل:
-  # assets:
-  #   - assets/images/
