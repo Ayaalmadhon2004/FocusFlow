@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter/services.dart'; // شو هاد السيرفسس دارت بعمل ولشو بنستخدمه 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'core/constants/app_theme.dart';
 import 'screens/timer_screen.dart';
@@ -7,13 +7,11 @@ import 'screens/timer_screen.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   
-  // ✅ تثبيت الاتجاه العمودي
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
   
-  // ✅ شريط الحالة شفاف
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
